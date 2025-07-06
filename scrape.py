@@ -8,11 +8,10 @@ from io import BytesIO
 import numpy as np
 import cv2
 
-# Setup YouTube API
-API_KEY = "AIzaSyD3zOFfaBB_9dpALUBWrtPYm2Ygy53hZ_8"
+
+API_KEY = " you_API_key"
 youtube = build('youtube', 'v3', developerKey=API_KEY)
 
-# --- Helper Functions ---
 
 def parse_duration(duration):
     return int(isodate.parse_duration(duration).total_seconds())
