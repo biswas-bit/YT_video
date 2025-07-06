@@ -8,7 +8,6 @@ import plotly.graph_objects as go
 # --- Load Model ---
 model = joblib.load("C:\\Users\\Dell\\OneDrive - City Community Education Consultancy Pvt. Ltd\\Desktop\\Music_analysis\\yt_analyzer.pkl")
 
-# --- Feature list (Must match what model was trained on) ---
 # Example: 'Transformed_target_7' was removed
 selected_features = [
     'thumbnail_brightness',
